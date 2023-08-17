@@ -1,0 +1,265 @@
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.fContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #232323;
+}
+
+/*NAVIGATION-BAR*/
+.nav-bar {
+  height: 55px;
+  overflow: visible;
+  color: white;
+  background-color: #303030;
+  display: flex;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.nav-bar {
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 1.3em;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.brand-logo-bg {
+  background-color: #1111ff;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  margin-right: 131px;
+  border-radius: 8px;
+}
+
+.brand-logo img {
+  width: 65px;
+  height: 65px;
+  margin-top: 7px;
+  position: relative;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation li,
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation li,
+a:hover {
+  color: #1111ff;
+  transition: 0.6s ease-in-out;
+}
+
+.active {
+  padding: 5px 15px;
+  color: white;
+  background-color: #1111ff;
+  border-radius: 25px;
+}
+
+.active:hover {
+  color: #0000b0 !important;
+}
+/*NAVIGATION-BAR-END*/
+
+.line {
+  width: 100%;
+  height: 2.5px;
+  background-color: #1111ff;
+}
+
+/*CONTENT-SEC-1-END*/
+.content {
+  color: white;
+  padding: 50px;
+  text-align: justify;
+  display: flex;
+}
+
+.p1 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.p2 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.p3 {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.section1-gambar {
+  margin-left: 100px;
+  padding: 0px;
+}
+
+.gambar1 {
+  width: 523.5px;
+  height: 348px;
+}
+
+.sosmed {
+  display: flex;
+  list-style-type: none;
+}
+
+.sosmed li,
+a {
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+.ssmd {
+  padding: 5px 15px;
+  color: #1111ff;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.ssmd:hover {
+  color: #babaff;
+}
+/*CONTENT-SEC-1-END*/
+
+/*CONTENT-SEC-2*/
+.content2 {
+  background-color: #303030;
+  color: white;
+  padding: 80px 50px;
+  text-align: justify;
+}
+
+#h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#p1 {
+  margin: 20px 80px 0px 80px;
+  font-size: 1em;
+  font-weight: 200;
+}
+/*CONTENT-SEC-2-END*/
+
+/*CONTENT-SEC-3*/
+.content3 {
+  background-color: #232323;
+  color: white;
+  padding: 120px 50px;
+}
+
+#sec-3-h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.container-skills-content {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-content,
+#html,
+#css,
+#js {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-top: 50px;
+  padding: 20px 0px;
+  border-radius: 6px;
+}
+
+.skills-content,
+#css {
+  margin: 50px 90px 0px 90px;
+}
+
+.img-skills,
+#img-html,
+#img-css,
+#img-js {
+  width: 200px;
+  height: 200px;
+}
+
+.img-skills,
+#img-html:hover,
+#img-css:hover,
+#img-js:hover {
+  width: 190px;
+  height: 190px;
+  transition: 0.1s ease-in-out;
+}
+/*CONTENT-SEC-3-END*/
+
+/*CONTENT-SEC-4*/
+.content4 {
+  background-color: #303030;
+  color: white;
+  padding: 120px 50px;
+}
+
+.contact-me {
+  margin: 0px 510px;
+  padding: 5px 15px;
+  background-color: #1111ff;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact-me:hover {
+  color: #0000b0;
+  transition: 0.6s ease-in-out;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1111ff;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 200;
+}
